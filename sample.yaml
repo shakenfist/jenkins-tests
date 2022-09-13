@@ -1,0 +1,31 @@
+pulp_cron_config:
+  debian-bullseye:
+    base_image_name: debian-bullseye
+    pulp_repo_filters:
+      - debian-bullseye
+  debian-buster:
+    base_image_name: debian-buster
+    pulp_repo_filters:
+      - debian-buster
+  rhel_8_server:
+    base_image_name: rhel_8_server
+    pulp_repo_filters:
+      - rhel-8-server
+      - epel-8
+  ubuntu-focal:
+    base_image_name: ubuntu-focal
+    pulp_repo_filters:
+      - ubuntu-focal
+  ubuntu-bionic:
+    base_image_name: ubuntu-bionic
+    pulp_repo_filters:
+      - ubuntu-bionic
+  debian-stretch:
+    base_image_name: debian-stretch
+    pulp_repo_filters:
+      - debian-stretch
+  centos-7:
+    base_image_name: centos-7
+    pulp_repo_filters:
+      - centos-7
+      - epel-7
