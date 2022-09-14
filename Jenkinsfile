@@ -3,7 +3,7 @@ pipeline {
   agent any
 
   stages {
-    stage('Trigger each snapshot and then release') {
+    stage('Test 2') {
       steps {
         script {
           pulp_yml = readYaml (file: 'sample.yaml')
